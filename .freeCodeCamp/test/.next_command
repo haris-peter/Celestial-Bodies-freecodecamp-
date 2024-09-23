@@ -30,3 +30,9 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
+https://github.com/haris-peter/Celestial-Bodies-freecodecamp-.git
+git init
+git commit -m "this marks the completion of the project"
+git add .
