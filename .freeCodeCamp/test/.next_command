@@ -36,3 +36,9 @@ https://github.com/haris-peter/Celestial-Bodies-freecodecamp-.git
 git init
 git commit -m "this marks the completion of the project"
 git add .
+git commit -m "this marks the completion of the project"
+git branch -M main
+git remote add origin https://github.com/haris-peter/Celestial-Bodies-freecodecamp-.git
+git remote -v
+git remote add haris https://github.com/haris-peter/Celestial-Bodies-freecodecamp-.git
+git push -u haris main
